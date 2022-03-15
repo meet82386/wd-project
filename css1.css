@@ -1,0 +1,108 @@
+:root{
+    --ppl :#D9D7F1;
+    --skn : #FFFDDE;
+    --psta : #E7FBBE;
+
+}
+
+body{
+    margin: 0;
+    background-color: var(--skn);
+}
+
+/* Fonts */
+.Toph1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 8px 42px;
+    font-weight: 600;
+}
+
+h2,h3,p,button,h5{
+    margin: 20px 42px;
+}
+h5{
+    text-decoration: line-through;
+}
+h3+p{
+    max-width: 1000px;
+}
+/* navigation bar */
+div ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+div ul li a{
+    color: rgb(105, 105, 105) ;
+    font-weight: 500;
+    padding: 10px;
+}
+div ul{
+    margin-bottom: 0;
+}
+.navbar{
+    background-color: var(--skn);   
+    padding: 10px 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    border-bottom: solid 2px #3A3A3A;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+/* Photos */
+img{
+    border-radius: 15%;
+    margin: 20px;
+}
+.hp{
+    margin-left: 42px;
+}
+
+/* Buttons */
+.pay,.add{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.pay{
+    margin-right: 0;
+}
+
+/* Footer */
+.foot{
+    background-color: #c1c1c1;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.foot h1{
+    border-top: solid 10px #A1A1A1;
+}
+.foot p{
+    margin: 30px 15%;
+}
+
+/* Icons */
+.icons{
+    font-weight: 500;
+    font-size: 35px;
+    margin: 15px;
+    color: black;
+}
+
+.mail:hover{
+    color: #EA4335;
+}
+.insta:hover{
+    color: #fb3958;
+}
+.twitter:hover{
+    color: #00ACEE;
+}
+.fb:hover{
+    color: #4267B2;
+}
